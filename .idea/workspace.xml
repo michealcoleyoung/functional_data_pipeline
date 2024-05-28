@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b91a72-4a26-4a69-99d5-804f929641de" name="Changes" comment="Set project structure">
+    <list default="true" id="d4b91a72-4a26-4a69-99d5-804f929641de" name="Changes" comment="added filter_by_age, transform_names and extract_emails functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functional_data_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_data_pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
     "Python.main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -94,11 +95,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716842869129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added filter_by_age, transform_names and extract_emails functions">
+      <option name="closed" value="true" />
+      <created>1716849652388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716849652388</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set project structure" />
+    <MESSAGE value="added filter_by_age, transform_names and extract_emails functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added filter_by_age, transform_names and extract_emails functions" />
   </component>
 </project>
