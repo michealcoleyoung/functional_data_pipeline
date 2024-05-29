@@ -13,16 +13,14 @@ def filter_by_age(data):
 
 def transform_names(data):
     # returns all names in uppercase
-    # uppercase_names = []
-    # counter = -1
-    # for user in data:
-    #     name = user["name"].upper()
-    #     uppercase_names.append(name)
-    # for name in uppercase_names:
-    #     counter += 1
-    #     data[counter]["name"] = name
-    # return data
-    pass
+    transformed_users = []
+
+    for user in data:
+        new_user = dict(user)
+        uppercase_name = user["name"].upper()
+        new_user["name"] = uppercase_name
+        transformed_users.append(new_user)
+    return transformed_users
 
 
 def extract_emails(data):

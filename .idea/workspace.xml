@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b91a72-4a26-4a69-99d5-804f929641de" name="Changes" comment="added filter_by_age, transform_names and extract_emails functions">
+    <list default="true" id="d4b91a72-4a26-4a69-99d5-804f929641de" name="Changes" comment="Updated functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functional_data_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_data_pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +102,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716849652388</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated functions">
+      <option name="closed" value="true" />
+      <created>1716940493727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716940493727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated functions">
+      <option name="closed" value="true" />
+      <created>1716940543509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716940543509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set project structure" />
     <MESSAGE value="added filter_by_age, transform_names and extract_emails functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added filter_by_age, transform_names and extract_emails functions" />
+    <MESSAGE value="Updated functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated functions" />
   </component>
 </project>
