@@ -34,8 +34,8 @@ def extract_emails(data):
 
 def compose_functions(*functions):
     def composed_function(data):
-        for user in reversed(functions):
-            data = user(data)
+        for func in reversed(functions):
+            data = func(data)
         return data
     return composed_function
 
@@ -44,11 +44,11 @@ with open('data/users.json') as f:
     users = json.load(f)
 
 
+combined_functions = compose_functions(extract_emails, transform_names, filter_by_age)
+result = combined_functions(users)
+
+
 print(f"Filter By Age: {filter_by_age(users)}")
 print(f"Transform Names: {transform_names(users)}")
 print(f"Extract Emails: {extract_emails(users)}")
-
-
-
-
-
+print(f"Compose Functions: {result}")
