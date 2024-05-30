@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b91a72-4a26-4a69-99d5-804f929641de" name="Changes" comment="Updated transform_names">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional_data_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_data_pipeline.py" afterDir="false" />
-    </list>
+    <list default="true" id="d4b91a72-4a26-4a69-99d5-804f929641de" name="Changes" comment="Updated order of chained functions in combined_functions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716947666040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated order of chained functions in combined_functions">
+      <option name="closed" value="true" />
+      <created>1717040515649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717040515649</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +150,7 @@
     <MESSAGE value="added filter_by_age, transform_names and extract_emails functions" />
     <MESSAGE value="Updated functions" />
     <MESSAGE value="Updated transform_names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated transform_names" />
+    <MESSAGE value="Updated order of chained functions in combined_functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated order of chained functions in combined_functions" />
   </component>
 </project>
